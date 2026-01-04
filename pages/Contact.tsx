@@ -75,9 +75,16 @@ const Contact: React.FC = () => {
                         <div>
                             <h3 className="font-bold uppercase tracking-wider mb-1 text-sm text-gray-400">Email</h3>
                             <div className="flex flex-col">
-                                <a href="mailto:hr@zentheragroups.com" className="text-xl font-serif text-zenthera-dark hover:text-zenthera-gold transition-colors">Info@zentheragroups.com</a>
-                                <a href="mailto:Info@zentheragroups.com" className="text-xl font-serif text-zenthera-dark hover:text-zenthera-gold transition-colors">Info@zentheragroups.com</a>
-                                <a href="mailto:Careers@zentheragroups.com" className="text-xl font-serif text-zenthera-dark hover:text-zenthera-gold transition-colors">Careers@zentheragroups.com</a>
+                                  <div className="flex flex-col">
+                                <a href="mailto:jobs@zentheragroups.com" className="text-xl font-serif text-zenthera-dark hover:text-zenthera-gold transition-colors">jobs@zentheragroups.com</a>
+                                <a href="mailto:careers@zentheragroups.com" className="text-xl font-serif text-zenthera-dark hover:text-zenthera-gold transition-colors">careers@zentheragroups.com</a>
+                                <a href="mailto:operations@zentheragroups.com" className="text-xl font-serif text-zenthera-dark hover:text-zenthera-gold transition-colors">operations@zentheragroups.com</a> 
+                                <a href="mailto:info@zentheragroups.com" className="text-xl font-serif text-zenthera-dark hover:text-zenthera-gold transition-colors">Info@zentheragroups.com</a>
+                                <a href="mailto:hr@zentheragroups.com" className="text-xl font-serif text-zenthera-dark hover:text-zenthera-gold transition-colors">hr@zentheragroups.com</a>
+                                  
+                                <a href="mailto:recruitment@zentheragroups.com" className="text-xl font-serif text-zenthera-dark hover:text-zenthera-gold transition-colors">recruitment@zentheragroups.com</a>
+                                <a href="mailto:grievance@zentheragroups.com" className="text-xl font-serif text-zenthera-dark hover:text-zenthera-gold transition-colors">grievance@zentheragroups.com</a>
+                                <a href="mailto:support@zentheragroups.com" className="text-xl font-serif text-zenthera-dark hover:text-zenthera-gold transition-colors">support@zentheragroups.com</a>
                             </div>
                         </div>
                     </div>
