@@ -131,7 +131,7 @@ const Services: React.FC = () => {
                       </div>
                   </div>
                   <div className="relative h-[500px] border border-gray-800">
-                      <img src="https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?auto=format&fit=crop&w=1000&q=80" alt="Digital Twin Technology" className="w-full h-full object-cover opacity-80" />
+                      <img src="https://www.sas.com/en_gb/insights/articles/analytics/understanding-digital-twin-technology/_jcr_content/par/styledcontainer/par/image.img.jpg/1759226315233.jpg" alt="Digital Twin Technology" className="w-full h-full object-cover opacity-80" />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
                       <div className="absolute bottom-8 left-8">
                           <div className="text-6xl font-serif text-white/10 font-bold">01</div>
@@ -151,7 +151,7 @@ const Services: React.FC = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                   <div className="relative group overflow-hidden h-80">
-                      <img src="https://images.unsplash.com/photo-1580901369227-3d843076c8c4?auto=format&fit=crop&w=800&q=80" alt="Cranes" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                      <img src="https://img.directindustry.com/images_di/photo-mg/50713-17621888.jpg" alt="Cranes" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                       <div className="absolute inset-0 bg-black/40 group-hover:bg-black/50 transition-colors flex flex-col justify-end p-8">
                           <Truck className="text-zenthera-gold mb-2" size={32} />
                           <h3 className="text-white text-xl font-bold">Heavy Lifting</h3>
