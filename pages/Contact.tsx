@@ -7,7 +7,7 @@ const offices = [
     city: "Visakhapatnam",
     region: "Asia Pacific HQ",
     address: ["11th Floor, Millennium IT Towers,", "Rushikonda, Visakhapatnam – 530048"],
-    phone: "+91 891 278 8888"
+    phone: "+91 08069754754"
   },
   {
     city: "Houston",
@@ -64,26 +64,32 @@ const Contact: React.FC = () => {
               For general questions, tender opportunities, or partnership requests, please contact our central desk or fill out the form. Our team typically responds within 24 hours.
             </p>
 
-            {/* Phone Section */}
-            <div className="mb-8 sm:mb-10 lg:mb-12">
-              <div className="flex items-start gap-4 sm:gap-6 group">
-                <div className="bg-white p-3 sm:p-4 rounded-full group-hover:bg-zenthera-gold transition-colors duration-300 flex-shrink-0">
-                  <Phone size={20} className="sm:w-6 sm:h-6 text-zenthera-dark group-hover:text-white transition-colors" />
-                </div>
-                <div>
-                  <h3 className="text-xs uppercase tracking-wider text-gray-500 mb-2 sm:mb-3 font-bold">
-                    CENTRAL PHONE
-                  </h3>
-                  <a
-                    href="tel:+12125550199"
-                    className="text-lg sm:text-xl lg:text-2xl font-serif text-zenthera-dark hover:text-zenthera-gold transition-colors block mb-1 sm:mb-2 break-all"
-                  >
-                    +1 (212) 555-0199
-                  </a>
-                  <p className="text-xs sm:text-sm text-gray-600">Mon-Fri, 9am - 6pm EST</p>
-                </div>
-              </div>
-            </div>
+          {/* Phone Section */}
+<div className="mb-8 sm:mb-10 lg:mb-12">
+  <div className="flex items-start gap-4 sm:gap-6 group">
+    <div className="bg-white p-3 sm:p-4 rounded-full group-hover:bg-zenthera-gold transition-colors duration-300 flex-shrink-0">
+      <Phone size={20} className="sm:w-6 sm:h-6 text-zenthera-dark group-hover:text-white transition-colors" />
+    </div>
+    <div>
+      <h3 className="text-xs uppercase tracking-wider text-gray-500 mb-2 sm:mb-3 font-bold">
+        CENTRAL PHONE
+      </h3>
+      
+        href="tel:+08069754754"
+        className="text-lg sm:text-xl lg:text-2xl font-serif text-zenthera-dark hover:text-zenthera-gold transition-colors block mb-1 sm:mb-2 break-all"
+      >
+        08069754754
+      </a>
+      
+        href="tel:+08062366936"
+        className="text-lg sm:text-xl lg:text-2xl font-serif text-zenthera-dark hover:text-zenthera-gold transition-colors block mb-1 sm:mb-2 break-all"
+      >
+        08062366936
+      </a>
+      <p className="text-xs sm:text-sm text-gray-600">Mon-Fri, 9am - 6pm EST</p>
+    </div>
+  </div>
+</div>
 
             {/* Email Directory */}
             <div className="mb-8 sm:mb-10 lg:mb-12">
